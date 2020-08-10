@@ -5,6 +5,15 @@ Main objective is for refresh coding skill and good coding style.
 
 use for counting numbers and sum them from text file.
 
+## code description:
+
+Counter class contain these methods
+|       methods  |     |
+| -------------- | --- |
+|readfile(String filename) |	Reads data values from a file and add them to the sum and count.<br />If the file doesn’t exist then print “File not found: filename” and return. |
+|int getCount()| Return the number of values read so far.|
+|double getTotal()|	Return the total of values read so far.|
+
 ## FOR RUNNING Java:
 ```
 cmd> java Main sample.txt
